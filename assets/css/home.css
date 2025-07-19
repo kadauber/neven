@@ -22,11 +22,14 @@ body.home main .home-wrapper {
 body.home main .home-wrapper .hero-image {
     flex: 1 1 auto;
 
-    /* Make the image stay small */
+    /* Make the image stays small */
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 body.home main .home-wrapper .hero-image img {
-    height: 100%;
+    max-height: 100%;
     width: auto;
 }
