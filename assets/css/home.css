@@ -1,33 +1,32 @@
 body.home {
     background-color: #111111;
     color: #FFFFFF;
-    align-items: center;
-    justify-content: center;
-}
-
-body.home main {
+    height: 100vh;
+    overflow: auto;
     display: flex;
     flex-direction: column;
 }
 
-body.home h1 {
-    margin: 0;
+body.home main {
+    flex: 1;
+    height: 100%;
 }
 
-.home :where(.hero-not,.hero-even) {
+body.home main .home-wrapper {
+    height: 100%;
     display: flex;
-    font-weight: 900;
-    line-height: 1em;
+    flex-direction: column;
+    align-items: center;
 }
 
-.home .hero-not {
-    font-size: 5rem;
-    font-family: "Sriracha", cursive;
-    text-transform: uppercase;
-    transform: translateX(-19%) translateY(-27%) rotate(-20deg);
-    font-weight: 600;
+body.home main .home-wrapper .hero-image {
+    flex: 1 1 auto;
+
+    /* Make the image stay small */
+    overflow: hidden;
 }
 
-.home .hero-even {
-    font-size: 10rem;
+body.home main .home-wrapper .hero-image img {
+    height: 100%;
+    width: auto;
 }
