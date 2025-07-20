@@ -24,8 +24,8 @@ description: ""
 domain: kadauber.github.io
 baseurl: "/neven" # the subpath of your site, e.g. /blog
 url: "https://kadauber.github.io/neven" # the base hostname & protocol for your site, e.g. http://example.com
-youtube_username: notevencomedy
-facebook_username: novevencomedy
+youtube_username: "@notevencomedy"
+facebook_username: notevencomedy
 instagram_username: noteven_comedy
 linkedin_username: not-even
 twitter_username: notevencomedy
