@@ -587,3 +587,9 @@
 .highlight .il {
     color: #099;
 }
+
+/* Social media list */
+.social-media-list {
+    margin: 0;
+    padding: 30px;
+}
