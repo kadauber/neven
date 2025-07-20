@@ -34,6 +34,7 @@ twitter_username: notevencomedy
 # theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
