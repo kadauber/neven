@@ -33,3 +33,9 @@ body.home main .home-wrapper .hero-image img {
     max-height: 100%;
     width: auto;
 }
+
+@media screen and (max-height: 650px) {
+    body.home main .home-wrapper .hero-image {
+        overflow: visible;
+    }
+}
